@@ -10,44 +10,35 @@ export class ProfessionalExperience extends React.Component {
 
     const professionExperience = Informations.professionalExperience.all.map((value, index) => {
       return (
-        <div className="card" key={ index }>
-          <div 
-            className="d-flex justify-content-around" 
-            style={{ backgroundColor: '#ececec'}}
-          >
-            <h4 className="card-title">{ value.company }</h4>
-            <h4>{ value.occupation }</h4>
-          </div>
-          <div className="d-flex justify-content-center p-2">
+        <ul className="timeline" key={ index }>
+          <li>
+            <h6>{ value.company } { value.occupation }</h6>
+            <strong>{ value.dateBegin }, { value.dateEnd }</strong>
             <p>{ value.worksWith }</p>
-          </div>
-          <div className="d-flex justify-content-around p-2">
-            <h6>{ value.dateBegin }</h6>
-            <h6>{ value.dateEnd }</h6>
-          </div>
-        </div>
+          </li>
+        </ul>
       )
     })
 
     return (
-      <div className="d-flex flex-row">
-        <div className="d-flex flex-column">
-          <div 
-            className="d-flex justify-content-start" 
-            key={ Informations.professionalExperience.key }
-          >
-            <h4>
-              <i 
-                className={ Informations.professionalExperience.icon } 
-                style={ iconStyle }
-              /> 
-              {Informations.professionalExperience.title}
-            </h4>
+      <div className="container mt-5 mb-5">
+        <div className="row">
+          <div className="col-md-6 offset-md-3">
+            <div 
+              className="d-flex justify-content-start" 
+            >
+              <h4>
+                <i 
+                  className={ Informations.professionalExperience.icon } 
+                  style={ iconStyle }
+                /> 
+                {Informations.professionalExperience.title}
+              </h4>
+            </div>
+            { professionExperience }
           </div>
-          { professionExperience }
         </div>
       </div>
     )
   }
 }
-

@@ -39,9 +39,17 @@ export class ProfileInfo extends React.Component {
     }
 
     return (
+      <div>
+        <ProfessionalExperience></ProfessionalExperience>
+        <VolunteerWork></VolunteerWork>
+        <AcademicJourney></AcademicJourney>
+        <Languages></Languages>
+      </div>
+    )
+    /*return (
       <div className="container" style={ divStyle }>
         <ProfessionalExperience></ProfessionalExperience>
       </div>
-    )
+    )*/
   }
 }

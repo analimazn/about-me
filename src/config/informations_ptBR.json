@@ -44,9 +44,9 @@
       {
         "company": "Climatempo",
         "occupation": "Estagiária em TI",
-        "worksWith": "Manutenção em sistemas que utilizam PHP e Node.js. Desenvolvimento de scripts de automação utilizando Python. Gerenciamento de banco de dados utilizando PostgreSQL e MongoDB.",
+        "worksWith": "Manutenção em sistemas que utilizam PHP e Node.js. Desenvolvimento de scripts de automação utilizando Python. Gerenciamento de banco de dados utilizando PostgreSQL e MongoDB. Uso de Git com padrões de Gitflow para versionamento de código e da metodologia ágil SCRUM para organização das tarefas.",
         "dateBegin": "18/02/2019",
-        "dateEnd": "Presente"
+        "dateEnd": "Atualmente"
       },
       {
         "company": "Brasil317",
@@ -70,8 +70,8 @@
     "key": "volunteerWork",
     "all": [
       {
-        "organization": "Flipside",
         "event": "Roadsec",
+        "occupation": "Roadie",
         "about": "O evento trata sobre segurança da informação e tecnologia.",
         "worksWith": "Voluntária na organização e divulgação do evento.",
         "years": "2018, 2017"
@@ -116,10 +116,23 @@
     "all": [
       {
         "idiom": "Inglês",
-        "lecture": 90,
-        "writer": 60,
-        "conversation": 50,
-        "listening": 50
+        "data": [
+          {
+            "icon": "fa fa-book",
+            "title": "Leitura",
+            "percentage": 90
+          },
+          {
+            "icon": "fas fa-marker",
+            "title": "Escrita",
+            "percentage": 60
+          },
+          {
+            "icon": "fa fa-comments",
+            "title": "Conversação",
+            "percentage": 50
+          }
+        ]
       }
     ]
   },
