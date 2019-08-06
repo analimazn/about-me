@@ -12,7 +12,7 @@ export class VolunteerWork extends React.Component {
       return (
         <ul className="timeline" key={ index }>
           <li>
-            <h6>{ value.organization } { value.occupation }</h6>
+            <h6>{ value.event } - { value.occupation }</h6>
             <strong>{ value.years }</strong>
             <p>{ value.about }</p>
             <p>{ value.worksWith }</p>
@@ -24,7 +24,7 @@ export class VolunteerWork extends React.Component {
     return (
       <div className="container mt-5 mb-5">
         <div className="row">
-          <div className="col-md-6 offset-md-3">
+          <div className="col-sm-8 offset-md-3">
             <div 
               className="d-flex justify-content-start" 
             >

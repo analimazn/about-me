@@ -12,7 +12,7 @@ export class ProfessionalExperience extends React.Component {
       return (
         <ul className="timeline" key={ index }>
           <li>
-            <h6>{ value.company } { value.occupation }</h6>
+            <h6>{ value.company } - { value.occupation }</h6>
             <strong>{ value.dateBegin }, { value.dateEnd }</strong>
             <p>{ value.worksWith }</p>
           </li>
@@ -23,7 +23,7 @@ export class ProfessionalExperience extends React.Component {
     return (
       <div className="container mt-5 mb-5">
         <div className="row">
-          <div className="col-md-6 offset-md-3">
+          <div className="col-sm-8 offset-md-3">
             <div 
               className="d-flex justify-content-start" 
             >

@@ -116,23 +116,15 @@
     "all": [
       {
         "idiom": "Inglês",
-        "data": [
-          {
-            "icon": "fa fa-book",
-            "title": "Leitura",
-            "percentage": 90
-          },
-          {
-            "icon": "fas fa-marker",
-            "title": "Escrita",
-            "percentage": 60
-          },
-          {
-            "icon": "fa fa-comments",
-            "title": "Conversação",
-            "percentage": 50
-          }
-        ]
+        "iconRead": "fa fa-book",
+        "titleRead": "Leitura",
+        "percentageRead": "90",
+        "iconWriter": "fas fa-pen",
+        "titleWriter": "Escrita",
+        "percentageWriter": "60",
+        "iconConversation": "fa fa-comments",
+        "titleConversation": "Conversação",
+        "percentageConversation": "50"
       }
     ]
   },
@@ -142,68 +134,56 @@
     "key": "skills",
     "all": [
       {
-        "database": [
-          {
-            "technologie": "MySQL",
-            "percentage": 45
-          },
-          {
-            "technologie": "PostgreSQL",
-            "percentage": 35
-          },
-          {
-            "technologie": "MongoDB",
-            "percentage": 45
-          }
-        ],
-        "frontEnd": [
-          {
-            "technologie": "HTML",
-            "percentage": 60
-          },
-          {
-            "technologie": "CSS",
-            "percentage": 35
-          },
-          {
-            "technologie": "Javascript",
-            "percentage": 35
-          },
-          {
-            "technologie": "React",
-            "percentage": 25
-          }
-        ],
-        "backEnd": [
-          {
-            "technologie": "Node.js",
-            "percentage": 75
-          },
-          {
-            "technologie": "Python",
-            "percentage": 50
-          },
-          {
-            "technologie": "Java",
-            "percentage": 35
-          }
-        ],
-        "mobile": [
-          {
-            "technologie": "React Native",
-            "percentage": 25
-          }
-        ],
-        "so": [
-          {
-            "technologie": "Linux (Distros baseadas em Debian e Arch Linux)",
-            "percentage": 90
-          },
-          {
-            "technologie": "Windows 10",
-            "percentage": 75
-          }
-        ]
+        "technologie": "MySQL",
+        "percentage": 45
+      },
+      {
+        "technologie": "PostgreSQL",
+        "percentage": 35
+      },
+      {
+        "technologie": "MongoDB",
+        "percentage": 45
+      },
+      {
+        "technologie": "HTML",
+        "percentage": 60
+      },
+      {
+        "technologie": "CSS",
+        "percentage": 35
+      },
+      {
+        "technologie": "Javascript",
+        "percentage": 35
+      },
+      {
+        "technologie": "React",
+        "percentage": 25
+      },
+      {
+        "technologie": "Node.js",
+        "percentage": 75
+      },
+      {
+        "technologie": "Python",
+        "percentage": 50
+      },
+      {
+        "technologie": "Java",
+        "percentage": 35
+      },
+      {
+        "technologie": "React Native",
+        "percentage": 25
+      },
+      {
+        "technologie": "Linux (Distros baseadas em Debian e Arch Linux)",
+        "percentage": 90
+      },
+      {
+        "technologie": "Windows 10",
+        "percentage": 75
       }
     ]
   }

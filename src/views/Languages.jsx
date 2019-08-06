@@ -9,39 +9,29 @@ export class Languages extends React.Component {
       marginRight: 15
     }
 
-    const languagesData = Informations.languages.all.map(val => {
-      const data = val.data.map((data, index) => {
-        return (
-          <div key={ index }>
-            <div className="card border-light mb-3">
-              <div className="card-header">
-                <h6>{ data.title }</h6>
-              </div>
-              <div className="card-body d-flex flex-row justify-content-start">
-              </div>
-              <ProgressBar animated now={45} />
-            </div>
-          </div>
-        )
-      })
-      return data
-    })
-
     const languages = Informations.languages.all.map((value, index) => {
       return (
-        <div className="d-flex flex-row">
-          <div className="" key={ index }>
-            <h3>{ value.idiom }</h3>
-            <p>{ languagesData }</p>
-          </div>
-        </div>
+        <ul className="timeline" key={ index }>
+          <li>
+            <h6>{ value.idiom }</h6>
+              <p>{ value.titleRead }
+                <ProgressBar animated now={ value.percentageRead } />
+              </p>
+              <p>{ value.titleWriter }
+                <ProgressBar animated now={ value.percentageWriter } />
+              </p>
+              <p>{ value.titleConversation }
+                <ProgressBar animated now={ value.percentageConversation } />
+              </p>
+          </li>
+        </ul>
       )
     })
 
     return (
       <div className="container mt-5 mb-5">
-        <div className="column">
-          <div className="col-md-6 offset-md-3">
+        <div className="row">
+          <div className="col-sm-8 offset-md-3">
             <div 
               className="d-flex justify-content-start" 
             >

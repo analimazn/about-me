@@ -44,12 +44,8 @@ export class ProfileInfo extends React.Component {
         <VolunteerWork></VolunteerWork>
         <AcademicJourney></AcademicJourney>
         <Languages></Languages>
+        <Skills></Skills>
       </div>
     )
-    /*return (
-      <div className="container" style={ divStyle }>
-        <ProfessionalExperience></ProfessionalExperience>
-      </div>
-    )*/
   }
 }

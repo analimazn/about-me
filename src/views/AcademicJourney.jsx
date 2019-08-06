@@ -23,7 +23,7 @@ export class AcademicJourney extends React.Component {
     return (
       <div className="container mt-5 mb-5">
         <div className="row">
-          <div className="col-md-6 offset-md-3">
+          <div className="col-sm-8 offset-md-3">
             <div 
               className="d-flex justify-content-start" 
             >

@@ -1,11 +1,44 @@
 import React from 'react'
+import { ProgressBar } from 'react-bootstrap';
+import Informations from '../config/informations_ptBR.json'
+
 
 export class Skills extends React.Component {
   render() {
+    const iconStyle = {
+      marginRight: 15
+    }
+
+    const skills = Informations.skills.all.map((value, index) => {
+      return (
+        <ul className="timeline" key={ index }>
+          <li>
+            <strong>{ value.technologie }
+              <ProgressBar animated now={ value.percentage } />
+            </strong>
+          </li>
+        </ul>
+      )
+    })
+
     return (
-      <div className="container" style={{backgroundColor: 'yellow'}}>
-        <p>{ this.props.technologie }</p>
-        <p>{ this.props.percentage }</p>
+      <div className="container mt-5 mb-5">
+        <div className="row">
+          <div className="col-sm-8 offset-md-3">
+            <div 
+              className="d-flex justify-content-start" 
+            >
+              <h4>
+                <i 
+                  className={ Informations.skills.icon } 
+                  style={ iconStyle }
+                /> 
+                {Informations.skills.title}
+              </h4>
+            </div>
+            { skills }
+          </div>
+        </div>
       </div>
     )
   }
