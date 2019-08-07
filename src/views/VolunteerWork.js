@@ -1,7 +1,6 @@
 import React from 'react'
 import Informations from '../config/informations_ptBR.json'
 
-
 export class VolunteerWork extends React.Component {
   render() {
     const iconStyle = {

@@ -2,7 +2,6 @@ import React from 'react'
 import { ProgressBar } from 'react-bootstrap';
 import Informations from '../config/informations_ptBR.json'
 
-
 export class Skills extends React.Component {
   render() {
     const iconStyle = {

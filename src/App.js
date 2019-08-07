@@ -1,9 +1,10 @@
 import React from 'react';
-import { Footer } from './components/footer'
-import { Header } from  './components/header'
-import { ProfilePhoto } from './components/profile-photo'
-import { ProfileInfo } from './components/profile-info'
+import { Footer } from './components/Footer'
+import { Header } from  './components/Header'
+import { ProfilePhoto } from './components/ProfilePhoto'
+import { ProfileInfo } from './components/ProfileInfo'
 import './assets/css/timeline.css';
+import './assets/css/header.css';
 import './assets/css/bootstrap.min.css';
 import './assets/css/paper-kit.css';
 
