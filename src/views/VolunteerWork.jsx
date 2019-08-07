@@ -10,14 +10,17 @@ export class VolunteerWork extends React.Component {
 
     const volunteerWork = Informations.volunteerWork.all.map((value, index) => {
       return (
-        <ul className="timeline" key={ index }>
-          <li>
-            <h6>{ value.event } - { value.occupation }</h6>
-            <strong>{ value.years }</strong>
-            <p>{ value.about }</p>
-            <p>{ value.worksWith }</p>
-          </li>
-        </ul>
+        <div className={ this.props.textAlign } key={ index }>
+          <ul className="timeline">
+            <li>
+              <h6>{ value.event } - { value.occupation }</h6>
+              <strong>{ value.years }</strong>
+              <br/>
+              <p>{ value.about }</p>
+              <p>{ value.worksWith }</p>
+            </li>
+          </ul>
+        </div>
       )
     })
 

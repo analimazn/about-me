@@ -11,13 +11,15 @@ export class Skills extends React.Component {
 
     const skills = Informations.skills.all.map((value, index) => {
       return (
-        <ul className="timeline" key={ index }>
-          <li>
-            <strong>{ value.technologie }
-              <ProgressBar animated now={ value.percentage } />
-            </strong>
-          </li>
-        </ul>
+        <div className={ this.props.textAlign } key={ index }>
+          <ul className="timeline">
+            <li>
+              <strong>{ value.technologie }
+                <ProgressBar animated now={ value.percentage } />
+              </strong>
+            </li>
+          </ul>
+        </div>
       )
     })
 

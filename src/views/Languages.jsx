@@ -11,20 +11,19 @@ export class Languages extends React.Component {
 
     const languages = Informations.languages.all.map((value, index) => {
       return (
-        <ul className="timeline" key={ index }>
-          <li>
-            <h6>{ value.idiom }</h6>
-              <p>{ value.titleRead }
+        <div className={ this.props.textAlign } key={ index }>
+          <ul className="timeline">
+            <li>
+              <h6>{ value.idiom }</h6>
+                <p>{ value.titleRead }</p>
                 <ProgressBar animated now={ value.percentageRead } />
-              </p>
-              <p>{ value.titleWriter }
+                <p>{ value.titleWriter }</p>
                 <ProgressBar animated now={ value.percentageWriter } />
-              </p>
-              <p>{ value.titleConversation }
-                <ProgressBar animated now={ value.percentageConversation } />
-              </p>
-          </li>
-        </ul>
+                <p>{ value.titleConversation }</p>
+                <ProgressBar animated now={ value.percentageConversation }/>
+            </li>
+          </ul>
+        </div>
       )
     })
 

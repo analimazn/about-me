@@ -51,7 +51,7 @@
       {
         "company": "Brasil317",
         "occupation": "Estagiária em TI",
-        "worksWith": "Desenvolvimento de softwares para extração de dados de sites públicos utilizando Python e Node.js. Gerenciamento de banco dados utilizando MySQL e MongoDB. Experiência com serviços e servidores AWS/Amazon.",
+        "worksWith": "Desenvolvimento de softwares para extração de dados de sites públicos utilizando Python e Node.js. Gerenciamento de banco dados utilizando MySQL e MongoDB. Experiência com serviços e servidores AWS/Amazon. Uso da metodologia ágil SCRUM para organização das tarefas.",
         "dateBegin": "01/02/2018",
         "dateEnd": "09/02/2019"
       },
@@ -73,7 +73,7 @@
         "event": "Roadsec",
         "occupation": "Roadie",
         "about": "O evento trata sobre segurança da informação e tecnologia.",
-        "worksWith": "Voluntária na organização e divulgação do evento.",
+        "worksWith": "Fui voluntária para ajudar na organização e divulgação do evento.",
         "years": "2018, 2017"
       }
     ]
@@ -179,11 +179,7 @@
       },
       {
         "technologie": "Linux (Distros baseadas em Debian e Arch Linux)",
-        "percentage": 90
-      },
-      {
-        "technologie": "Windows 10",
-        "percentage": 75
+        "percentage": 80
       }
     ]
   }

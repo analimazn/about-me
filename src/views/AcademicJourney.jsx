@@ -10,13 +10,16 @@ export class AcademicJourney extends React.Component {
 
     const academicJourney = Informations.academicJourney.all.map((value, index) => {
       return (
-        <ul className="timeline" key={ index }>
-          <li>
-            <h6>{ value.school }</h6>
-            <strong>{ value.dateBegin }, { value.dateEnd }</strong>
-            <p> { value.course }</p>
-          </li>
-        </ul>
+        <div className={ this.props.textAlign } key={ index }>
+          <ul className="timeline">
+            <li>
+              <h6>{ value.school }</h6>
+              <strong>{ value.dateBegin }, { value.dateEnd }</strong>
+              <br/>
+              <p> { value.course }</p>
+            </li>
+          </ul>
+        </div>
       )
     })
 

@@ -16,8 +16,8 @@ export class SocialNetworkNav extends React.Component {
 
     const info = Informations.socialNetwork.map((data, key) => {
       return (
-        <a  key={ data.key }
-            rel="tooltip"
+        <a  key={ key }
+            rel="noopener noreferrer"
             target="_blank"
             title={ data.title }
             href={ data.url }

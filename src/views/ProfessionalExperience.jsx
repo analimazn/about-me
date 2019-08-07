@@ -10,13 +10,16 @@ export class ProfessionalExperience extends React.Component {
 
     const professionExperience = Informations.professionalExperience.all.map((value, index) => {
       return (
-        <ul className="timeline" key={ index }>
-          <li>
-            <h6>{ value.company } - { value.occupation }</h6>
-            <strong>{ value.dateBegin }, { value.dateEnd }</strong>
-            <p>{ value.worksWith }</p>
-          </li>
-        </ul>
+        <div className={ this.props.textAlign } key={ index }>
+          <ul className="timeline">
+            <li>
+              <h6>{ value.company } - { value.occupation }</h6>
+              <strong>{ value.dateBegin }, { value.dateEnd }</strong>
+              <br/>
+              <p>{ value.worksWith }</p>
+            </li>
+          </ul>
+        </div>
       )
     })
 
