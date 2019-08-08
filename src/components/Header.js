@@ -3,7 +3,7 @@ import React from 'react'
 export class Header extends React.Component {
   render() {
     const divStyle = {
-      backgroundColor: '#fb6fdb',
+      backgroundColor: 'transparent',
       padding: 100,
       positionTop: 'fixed'
     }
