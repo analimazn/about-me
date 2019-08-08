@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/about-me/static/css/main.ca817e5c.chunk.css",
+    "main.js": "/about-me/static/js/main.2a1506a4.chunk.js",
+    "main.js.map": "/about-me/static/js/main.2a1506a4.chunk.js.map",
+    "runtime~main.js": "/about-me/static/js/runtime~main.838ee889.js",
+    "runtime~main.js.map": "/about-me/static/js/runtime~main.838ee889.js.map",
+    "static/js/2.f2ec6275.chunk.js": "/about-me/static/js/2.f2ec6275.chunk.js",
+    "static/js/2.f2ec6275.chunk.js.map": "/about-me/static/js/2.f2ec6275.chunk.js.map",
+    "index.html": "/about-me/index.html",
+    "precache-manifest.04fd18916bd78d80dd302d446f775ce1.js": "/about-me/precache-manifest.04fd18916bd78d80dd302d446f775ce1.js",
+    "service-worker.js": "/about-me/service-worker.js",
+    "static/css/main.ca817e5c.chunk.css.map": "/about-me/static/css/main.ca817e5c.chunk.css.map",
+    "static/media/analima.jpg": "/about-me/static/media/analima.0668a123.jpg",
+    "static/media/paper-kit.css": "/about-me/static/media/nucleo-icons.f32ed5ad.eot"
+  }
+}
