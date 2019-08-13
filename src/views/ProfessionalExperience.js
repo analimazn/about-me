@@ -13,7 +13,7 @@ export class ProfessionalExperience extends React.Component {
           <ul className="timeline">
             <li>
               <h6>{ value.company } - { value.occupation }</h6>
-              <strong>{ value.dateBegin }, { value.dateEnd }</strong>
+              <b>{ value.dateBegin }, { value.dateEnd }</b>
               <br/>
               <p>{ value.worksWith }</p>
             </li>

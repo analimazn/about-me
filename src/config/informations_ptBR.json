@@ -146,15 +146,15 @@
         "percentage": 45
       },
       {
+        "technologie": "Javascript",
+        "percentage": 35
+      },
+      {
         "technologie": "HTML",
         "percentage": 60
       },
       {
         "technologie": "CSS",
-        "percentage": 35
-      },
-      {
-        "technologie": "Javascript",
         "percentage": 35
       },
       {
@@ -178,7 +178,7 @@
         "percentage": 25
       },
       {
-        "technologie": "Linux (Distros baseadas em Debian e Arch Linux)",
+        "technologie": "Linux",
         "percentage": 80
       }
     ]
