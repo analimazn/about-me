@@ -4,7 +4,7 @@ export class Header extends React.Component {
   render() {
     const divStyle = {
       backgroundColor: 'transparent',
-      padding: 100,
+      padding: 110,
       positionTop: 'fixed'
     }
 

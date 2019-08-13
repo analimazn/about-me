@@ -14,7 +14,7 @@ export class AcademicJourney extends React.Component {
           <ul className="timeline">
             <li>
               <h6>{ value.school }</h6>
-              <strong>{ value.dateBegin }, { value.dateEnd }</strong>
+              <b>{ value.dateBegin }, { value.dateEnd }</b>
               <br/>
               <p> { value.course }</p>
             </li>

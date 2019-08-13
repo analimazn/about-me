@@ -13,7 +13,7 @@ export class VolunteerWork extends React.Component {
           <ul className="timeline">
             <li>
               <h6>{ value.event } - { value.occupation }</h6>
-              <strong>{ value.years }</strong>
+              <b>{ value.years }</b>
               <br/>
               <p>{ value.about }</p>
               <p>{ value.worksWith }</p>
