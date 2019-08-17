@@ -17,7 +17,14 @@ export class SkillsGraphic extends React.Component {
       >
         <VictoryPie
           style={{ labels: { fill: "#444243" } }}
-          colorScale={["#CD5C5C", "#F08080", "#FA8072", "#E9967A", "#FFA07A"]}
+          colorScale={[
+            "#e8daef", 
+            "#fadbd8", 
+            "#d5f5e3",
+            "#fdebd0", 
+            "#f6ddcc", 
+            "#d1f2eb"
+          ]}
           padAngle={3}
           innerRadius={100}
           labelRadius={115}
